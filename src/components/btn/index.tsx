@@ -1,18 +1,17 @@
 import { MouseEventHandler } from "react"
 import { Button } from "./styles"
+import {Link} from "react-router-dom"
 
 
 type Props = {
     onClick?: MouseEventHandler<HTMLButtonElement>,
-    textBtn: string ,
+
 }
 
-export default function Btn ({onClick, textBtn}:Props){
+export default function Btn ({onClick,}:Props){
     return(
         <>
-            <Button onClick={onClick}>
-                {textBtn}
-            </Button>
+            <Link to="../../pages/Dashboard"><Button onClick={onClick}>Entrar</Button></Link>
         </>
     )
 }

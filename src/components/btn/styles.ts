@@ -14,5 +14,6 @@ export const Button = styled.button `
     top: 526px;
     left: 343px;
     gap: 4px;
+    cursor: pointer;
 //Style que preciso
 `

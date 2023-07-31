@@ -1,4 +1,4 @@
-import {Page} from "../components/styles/stylePredicoesClient"
+import {Page} from "../components/styles/stylesPredicoesClient"
 import Header from "../components/header/index"
 import Menu from "../components/menu/index"
 import DataClient from "../components/dataClient/index"
